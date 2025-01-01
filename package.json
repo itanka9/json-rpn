@@ -1,0 +1,17 @@
+{
+  "name": "json-rpn",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build -c lib.config.js",
+    "test": "tsx --test ./test/index.test.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.3",
+    "tsx": "^4.19.2",
+    "typescript": "~5.6.2",
+    "vite": "^5.4.10"
+  }
+}
